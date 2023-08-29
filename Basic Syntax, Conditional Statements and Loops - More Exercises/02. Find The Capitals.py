@@ -4,4 +4,5 @@
 my_list = []
 for index, char in enumerate(input()):
     if char.isupper():
-        mylist += index
+        my_list.append(index)
+print(my_list)
